@@ -1,0 +1,35 @@
+{
+    "cookie": {
+        "originalMaxAge": 30000,
+        "expires": "2024-01-11T08:16:25.955Z",
+        "httpOnly": true,
+        "path": "/"
+    },
+    "passport": {
+        "user": {
+            "code": "c89773dd-b415-4214-9091-c479051cc471",
+            "groupWithRoles": {},
+            "email": "123@gmail.com",
+            "username": "1"
+        }
+    }
+}
+
+0f9a56cf-5e63-4d25-a455-00af4995cd57
+
+{
+    "cookie": {
+        "originalMaxAge": 30000,
+        "expires": "2024-01-11T08:33:09.944Z",
+        "httpOnly": true,
+        "path": "/"
+    },
+    "passport": {
+        "user": {
+            "code": "2eeb4b07-703d-4bf4-8bcc-31d8b841ee70",
+            "groupWithRoles": {},
+            "email": "123@gmail.com",
+            "username": "1"
+        }
+    }
+}
