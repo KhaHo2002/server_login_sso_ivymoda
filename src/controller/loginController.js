@@ -13,11 +13,9 @@ const handleVerifyTokenSSO = async (req, res) => {
         if (req.user && req.user.code === ssoToken) {
             const refresh_token = uuidv4();
             await loginRegisterService.updateUserRefreshToken(req.user.email, refresh_token);
-            // await loginRegisterService.updateUserRefreshToken(req.user.email);
-
             let payload = {
                 email: req.user.email,
-                groupWithRoles: req.user.groupWithRoles,
+                groupWithRoles: req.user.groupWithRoles, 
                 username: req.user.username
             }
             let access_token = createJWT(payload);
